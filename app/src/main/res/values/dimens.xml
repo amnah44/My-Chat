@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_normal">16dp</dimen>
+    <dimen name="dimen_normal">32dp</dimen>
+    <dimen name="radius">64dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="padding_small_time">4dp</dimen>
+    <dimen name="width_normal">24dp</dimen>
+    <dimen name="height_normal">22dp</dimen>
+    <dimen name="padding_normal">18dp</dimen>
+    <dimen name="dimen_small">12dp</dimen>
+    <dimen name="padding_small">6dp</dimen>
+    <dimen name="normal_direction_image_view">28dp</dimen>
+    <dimen name="height_large_view">128dp</dimen>
+    <dimen name="width_normal_view">64dp</dimen>
+    <dimen name="height_small_view">0dp</dimen>
+
+
+</resources>

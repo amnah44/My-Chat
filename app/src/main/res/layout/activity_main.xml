@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="@dimen/size_normal"
+        android:minHeight="?attr/actionBarSize"
+        android:paddingStart="@dimen/dimen_normal"
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/black"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        style="@style/linear_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/blue_chat.linear_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_size.text_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hi_leo_whats_up" />
+
+            <ImageView
+                style="@style/double_check"
+                android:layout_width="@dimen/width_normal"
+                android:layout_height="@dimen/height_normal"
+                android:src="@drawable/ic_baseline_done_all_24"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/text_size.send_time_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_22_30" />
+
+        <LinearLayout
+            style="@style/blue_chat.linear_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_size.text_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/padding_normal"
+                android:text="@string/simple_minimal_and_beauti" />
+
+            <ImageView
+                style="@style/double_check"
+                android:layout_width="@dimen/width_normal"
+                android:layout_height="@dimen/height_normal"
+                android:src="@drawable/ic_baseline_done_all_24"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/text_size.send_time_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_22_31" />
+
+        <LinearLayout
+            style="@style/gray_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_size.gray_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ok_i_ll_start_next_week" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/text_size.receive_time_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_22_32" />
+
+        <LinearLayout
+            style="@style/blue_chat.linear_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_size.text_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oh_that_s_great"
+
+                />
+
+            <ImageView
+                style="@style/double_check"
+                android:layout_width="@dimen/width_normal"
+                android:layout_height="@dimen/height_normal"
+                android:src="@drawable/ic_baseline_done_all_24"
+                app:tint="@color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/text_size.send_time_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_22_33" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_large_view" />
+
+        <LinearLayout
+            style="@style/type_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_face"
+                app:tint="@color/color_icon" />
+
+            <View
+                android:layout_width="@dimen/width_normal_view"
+                android:layout_height="@dimen/height_small_view"
+                android:layout_weight="16" />
+
+            <ImageView
+                android:layout_width="@dimen/normal_direction_image_view"
+                android:layout_height="@dimen/normal_direction_image_view"
+                android:layout_weight="1"
+                android:rotation="42"
+                android:src="@drawable/ic_outline_attach_file_24"
+                app:tint="@color/color_icon" />
+
+            <ImageView
+                android:layout_width="@dimen/normal_direction_image_view"
+                android:layout_height="@dimen/normal_direction_image_view"
+                android:layout_weight="1"
+                android:src="@drawable/ic_microphone"
+                app:tint="@color/color_icon" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

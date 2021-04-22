@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyChat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary</item>
+        <item name="colorOnSecondary">@color/brand_Secondary</item>
+        <!-- Status bar color, -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/brand_primary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Theme of blue shape of chat -->
+    <style name="blue_chat">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:background">@drawable/blue_shape_of_chat</item>
+    </style>
+
+    <!-- The size for all text -->
+    <style name="text_size">
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!-- The size for all text and with white color font -->
+    <style name="text_size.text_theme">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingTop">@dimen/padding_small_time</item>
+        <item name="android:paddingEnd">@dimen/width_normal</item>
+    </style>
+
+    <!-- The size for all text and with black color font -->
+    <style name="text_size.gray_chat">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- The size for all text and with some attribute for send time -->
+    <style name="text_size.send_time_theme">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:padding">@dimen/padding_small_time</item>
+    </style>
+    <!-- The size for all text and with some attribute for receive time -->
+    <style name="text_size.receive_time_theme">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:padding">@dimen/padding_small_time</item>
+    </style>
+
+    <!-- Margin for linearLayout that content all groupView and View in ui-->
+    <style name="linear_margin">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginStart">@dimen/size_normal</item>
+        <item name="android:layout_marginTop">@dimen/dimen_normal</item>
+        <item name="android:layout_marginEnd">@dimen/size_normal</item>
+    </style>
+
+    <!-- Padding for linearLayout that content the first sending chat-->
+    <style name="blue_chat.linear_padding">
+        <item name="android:paddingStart">@dimen/dimen_normal</item>
+        <item name="android:paddingTop">@dimen/size_normal</item>
+    </style>
+
+    <!-- Padding for linearLayout in gray shape chat-->
+    <style name="gray_chat">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:paddingStart">@dimen/dimen_normal</item>
+        <item name="android:paddingTop">@dimen/padding_normal</item>
+        <item name="android:paddingEnd">@dimen/width_normal</item>
+        <item name="android:paddingBottom">@dimen/padding_normal</item>
+        <item name="android:background">@drawable/gray_shape_of_chat</item>
+    </style>
+
+    <!-- This attribute for emoji in the last sending chat-->
+    <style name="emoji_attr">
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingStart">@dimen/padding_small</item>
+    </style>
+
+    <!-- t\Type box attribute-->
+    <style name="type_box">
+        <item name="android:layout_marginTop">@dimen/dimen_normal</item>
+        <item name="android:background">@drawable/type_box</item>
+        <item name="android:padding">@dimen/size_normal</item>
+    </style>
+
+    <!-- Double check attribute-->
+    <style name="double_check">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:paddingBottom">@dimen/padding_small_time</item>
+        <item name="android:layout_marginEnd">@dimen/padding_normal</item>
+    </style>
+
+</resources>
